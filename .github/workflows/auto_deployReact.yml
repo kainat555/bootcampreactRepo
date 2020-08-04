@@ -27,14 +27,11 @@ jobs:
       with:
        version: 12
 
-    - name: GitHub Action for Yarn
-      uses: Borales/actions-yarn@v2.3.0
-      with:
-    # Yarn command
-       cmd: install
+    - name: Automated releases for npm packages.
+      uses: mikeal/merge-release@v4.0.7
     
     - name: Creating build
-      run: yarn build
+      run: npm run build
  
     - name: installing surge
       run: npm install -g surge
