@@ -7,6 +7,8 @@ function App() {
     <div>
   <h1>Hello World from Kainat.<br></br>
   woohoo..!!</h1> 
+  <p>Hello how are you?</p>
+  <o>Omg It's working simultaneously.</o>
     </div>
   );
 }
